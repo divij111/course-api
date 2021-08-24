@@ -8,7 +8,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                git 'https://github.com/Mausam.com.git'
+                git 'https://github.com/divij111/Mausam.com.git'
             }
         }
         stage('deploy'){
