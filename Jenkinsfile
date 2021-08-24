@@ -8,7 +8,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                echo "Testing the application..."
+                git 'https://github.com/Mausam.com.git'
             }
         }
         stage('deploy'){
