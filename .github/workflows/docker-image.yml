@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: Running the Docker image
-      run: docker run -it --name course-api my-image-name:$(date +%s)
+      run: docker run --name course-api my-image-name:$(date +%s)
